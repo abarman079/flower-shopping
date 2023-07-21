@@ -1,55 +1,150 @@
 body {
-    font-family: "Open Sans", sans-serif;
-  }
-  /* header section starts from here */
-  .head{
-      background-color: rgba(229, 84, 115, 0.10);
-      ;
+  font-family: "Open Sans", sans-serif;
+}
+
+/* header section starts from here */
+.head {
+  background-color: rgba(229, 84, 115, 0.1);
+}
+
+.banner {
+  padding: 30px 30px 0px 130px;
+  display: flex;
+  align-items: center;
+}
+
+.banner-content {
+  max-width: 500px;
+}
+
+.abstract1 {
+  color: #272727;
+  font-family: Lato;
+  font-size: 80px;
+  padding-bottom: 0px;
+}
+
+.dp1 {
+  width: 635px;
+  height: 800px;
+}
+
+.description1 {
+  color: rgba(39, 39, 39, 0.6);
+  font-family: Lato;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  padding-top: 0px;
+}
+
+.btn-primary {
+  border-radius: 5px;
+  background: #fd6e0a;
+  border: 0;
+  font-size: 20px;
+  color: white;
+  padding: 18px 35px;
+  font-weight: 700;
+  border-radius: 8px;
+  background: #e55473;
+}
+
+/* header section ends here */
+
+/* main section stars here */
+
+.card_container {
+  display: flex;
+
+}
+
+.abstract2 {
+  color: #272727;
+  text-align: center;
+  font-family: Lato;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.description2 {
+  color: rgba(39, 39, 39, 0.6);
+  text-align: center;
+  font-family: Lato;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.card {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 45px;
+  margin-right: 45px;
+}
+
+.card1 {
+  width: 400px;
+  height: 500px;
+  flex-shrink: 0;
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(167, 33, 98, 0.15);
+}
+
+
+.card1pic {
+  width: 310px;
+  height: 410px;
+  flex-shrink: 0;
+  padding: 90px 78px 0px 40px;
+}
+
+.cardpic2 {
+  width: 370px;
+  height: 370px;
+  flex-shrink: 0;
+  padding: 110px 78px 0px 40px;
+
+}
+
+.cardpic3 {
+  width: 314px;
+  height: 471px;
+  flex-shrink: 0;
+  padding: 110px 78px 0px 76px;
+}
+
+/* service part startsb here */
+
+.service {
+background-color:red;
+
+}
+
+.call_us {
+  padding: 70px 0px 70px 0px ;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 100px;
+  margin-left: 220px;
+  margin-right: 200px; 
+ 
+  text-align: center;
   
-      ;
-  }
-  .banner {
-    padding: 30px 30px 0px 130px;
-    display: flex;
-    align-items: center;
-  }
+}
+.delivery_service{
+  color: rgba(39, 39, 39, 0.80);
+  text-align: center;
+  font-family: Lato;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 35px;
   
-  .banner-content {
-    max-width: 500px;
-  }
-  .abstract1 {
-    color: #272727;
-    font-family: Lato;
-    font-size: 80px;
-    padding-bottom: 0px;
-  }
-  .dp1 {
-    width: 635px;
-    height: 800px;
-    
-  }
-  
-  .description1 {
-    color: rgba(39, 39, 39, 0.6);
-    font-family: Lato;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 30px;
-    padding-top: 0px;
-  }
-  
-  .btn-primary {
-    border-radius: 5px;
-    background: #fd6e0a;
-    border: 0;
-    font-size: 20px;
-    color: white;
-    padding: 18px 35px;
-    font-weight: 700;
-    border-radius: 8px;
-    background: #e55473;
-  }
-  
-  /* header section ends here */
-  
+}
+/* service parts ends here */
