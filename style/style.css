@@ -20,7 +20,7 @@ body {
 .abstract1 {
   color: #272727;
   font-family: Lato;
-  font-size: 80px;
+  font-size: 40px;
   padding-bottom: 0px;
 }
 
@@ -148,3 +148,72 @@ background-color:red;
   
 }
 /* service parts ends here */
+
+/* offer part starts here */
+.offer{
+height: 450px;
+flex-shrink: 0;
+background-color: #fd6e0a;
+margin-top: 100px;
+
+}
+.offer{
+  padding: 30px 30px 0px 130px;
+}
+.offer_container{
+  display: flex;
+
+}
+
+.abstract_offer{
+  color: #272727;
+font-family: Lato;
+font-size: 40px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.offer-pic{
+  width: 318px;
+height: 420px;
+flex-shrink: 0;
+padding-right: 200px;
+}
+.offer_description{
+  color: rgba(39, 39, 39, 0.60);
+  text-align: center;
+  font-family: Lato;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+}
+.signUp_button{
+  border-radius: 5px;
+  background: #fd6e0a;
+  border: 0;
+  font-size: 20px;
+  color: white;
+  padding: 18px 35px;
+  font-weight: 700;
+  border-radius: 8px;
+  background: #e55473;
+  align-items: center;
+}
+
+/* insta photos part starts here */
+
+
+.insta-pic{
+  display:flex;
+  justify-content: space-between;
+  margin-left: 60px;
+  margin-right: 60px;
+}
+.insta1{
+  width: 200px;
+  height: 280px;
+}
+
+
+/* subscribe starts here */
