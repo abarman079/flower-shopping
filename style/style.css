@@ -5,6 +5,7 @@ body {
 /* header section starts from here */
 .head {
   background-color: rgba(229, 84, 115, 0.1);
+
 }
 
 .banner {
@@ -121,65 +122,75 @@ body {
 /* service part startsb here */
 
 .service {
-background-color:red;
+  background-color: rgba(39, 39, 39, 0.05);
+  margin-left: 170px;
+  margin-right: 170px;
 
 }
 
 .call_us {
-  padding: 70px 0px 70px 0px ;
+  padding: 70px 0px 70px 0px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-top: 100px;
   margin-left: 220px;
-  margin-right: 200px; 
- 
+  margin-right: 200px;
+
   text-align: center;
-  
+
 }
-.delivery_service{
+
+.delivery_service {
   color: rgba(39, 39, 39, 0.80);
   text-align: center;
   font-family: Lato;
-  font-size: 24px;
+  font-size: px;
   font-style: normal;
   font-weight: 600;
   line-height: 35px;
-  
+
 }
+
 /* service parts ends here */
 
 /* offer part starts here */
-.offer{
-height: 450px;
-flex-shrink: 0;
-background-color: #fd6e0a;
-margin-top: 100px;
+.offer {
+  height: 450px;
+  flex-shrink: 0;
+  background-color: rgba(229, 84, 115, 0.05);
+  margin-top: 100px;
+  margin-left: 150px;
+  margin-right: 150px;
 
 }
-.offer{
+
+.offer {
   padding: 30px 30px 0px 130px;
 }
-.offer_container{
+
+.offer_container {
   display: flex;
 
 }
 
-.abstract_offer{
+.abstract_offer {
   color: #272727;
-font-family: Lato;
-font-size: 40px;
-font-style: normal;
-font-weight: 800;
-line-height: normal;
+  font-family: Lato;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
 }
-.offer-pic{
+
+.offer-pic {
   width: 318px;
-height: 420px;
-flex-shrink: 0;
-padding-right: 200px;
+  height: 420px;
+  flex-shrink: 0;
+  padding-right: 200px;
 }
-.offer_description{
+
+.offer_description {
   color: rgba(39, 39, 39, 0.60);
   text-align: center;
   font-family: Lato;
@@ -188,9 +199,10 @@ padding-right: 200px;
   font-weight: 400;
   line-height: 30px;
 }
-.signUp_button{
+
+.signUp_button {
   border-radius: 5px;
-  background: #fd6e0a;
+  background: rgba(229, 84, 115, 0.05);
   border: 0;
   font-size: 20px;
   color: white;
@@ -204,16 +216,49 @@ padding-right: 200px;
 /* insta photos part starts here */
 
 
-.insta-pic{
-  display:flex;
+.insta-pic {
+  display: flex;
   justify-content: space-between;
-  margin-left: 60px;
-  margin-right: 60px;
+  margin-left: 170px;
+  margin-right: 170px;
 }
-.insta1{
+
+.insta1 {
   width: 200px;
   height: 280px;
 }
 
 
 /* subscribe starts here */
+.sub-section {
+  width: auto;
+  
+  height: 500px;
+  background-image: url("../bg.png");
+  background-repeat: no-repeat;
+  background-color: #fff;
+  margin-left: 170px;
+  margin-right: 170px;
+}
+
+
+.email {
+  width: 300px;
+  height: 50px;
+  border-radius: 8px;
+  background: #FFF;
+  justify-content: center;
+  margin-top: 70px;
+  margin-left: 300px;
+
+}
+.abstract3{
+  color: #272727;
+  text-align: center;
+  font-family: Lato;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+padding-top: 100px;
+}
